@@ -27,7 +27,6 @@ export const authOptions = {
       //   password: {  label: "password", type: "password" }
       // },
       async authorize(credentials, req) {
-        console.log(credentials, 'credentials pro max')
         // You need to provide your own logic here that takes the credentials
         // submitted and returns either a object representing a user or value
         // that is false/null if the credentials are invalid.
